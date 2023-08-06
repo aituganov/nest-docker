@@ -8,4 +8,4 @@ WORKDIR ${WORK_DIR}
 
 RUN npm install && npm run build
 
-ENTRYPOINT [ "npm", "start:prod" ]
+ENTRYPOINT [ "npm", "run", "start:prod" ]
